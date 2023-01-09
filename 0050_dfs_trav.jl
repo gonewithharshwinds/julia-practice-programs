@@ -15,7 +15,7 @@ struct Graph
 end
 
 function addEdge(g::Graph, u::Int, v::Int)
-  if !hasKey(g.adj_list, u)
+  if !haskey(g.adj_list, u)
     g.adj_list[u = Set([v])
   else
     push!(g.adj_list[u],v)
