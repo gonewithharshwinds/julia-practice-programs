@@ -1,6 +1,10 @@
 #######################################################################
 # Implementation of simple DFS using Julia Language with keyboard input
-# 
+################### TO-DO ###################
+######### 1. Function Main reads input and calls other functions
+######### 2. Take Keyboard input
+######### 3. Function addEdge to make graph
+######### 4. Function DFS to perform traversal
 #######################################################################
 
 
